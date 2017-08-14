@@ -5,7 +5,7 @@
 
                 <div class="mobileNav">
                 	<ul>
-                        <li><a href="/">PROFILE</a></li>
+                        <li><a href="/profile.shtml">PROFILE</a></li>
                         <li><a href="/activities.shtml">ACTIVITES</a></li>
                         <li><a href="/my-motivation.shtml">MY MOTIVATION</a></li>
                         <li><a href="/tips-and-tricks.shtml">TIPS & TRICKS</a></li>
