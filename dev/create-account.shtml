@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper profiler">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div id="intro" class="row introHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon"></div>
+                        <h1>
+                            <span class="hiddenHeader">RESILIENCY TRAINING</span>
+                            <img src="build/assets/images/logo-main.png" alt="RESILIENCY TRAINING" />
+                        </h1>
+                        <p class="blurb"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row introContent">
+                <div class="grid contentContainer blurbCarousel">
+                    <div class="col colFull">
+                        <h2>Welcome to ReST!</h2>
+                        <p class="blurb">We have carefully selected a range of activities that alleviate stress anxiety and depression and boost happiness. Enjoy! </p>
+                    </div>
+                    <!-- <div class="col">
+                        <h2>And more stuff</h2>
+                        <p class="blurb">and things</p>
+                    </div>
+                    <div class="col">
+                        <h2>and more things</h2>
+                        <p class="blurb">and things</p>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="row butnContainer">
+                <div class="grid contentContainer">
+                    <form class="col colFull userInputs">
+                        <input type="text" class="username" placeholder="USENAME" />
+                        <input type="password" class="password" placeholder="PASSWORD" />
+                        <input type="password" class="password" placeholder="RE-ENTER PASSWORD" />
+                        <input type="email" class="email" placeholder="EMAIL" />
+                        <input type="text" class="mobile" placeholder="MOBILE" />
+                        <input type="button" class="submitButn" />
+                    </form>
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper profiler">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div id="work" class="row introHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                            <div class="cirlceContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-work.png" alt="Work / Education Activity" />
+                                </div>
+                            </div>
+                        </div>
+                        <h1>
+                            <span>WORK / EDUCATION</span>
+                            <!-- <img src="build/assets/images/icon-meaning-main.png" alt="Meaning Activity" /> -->
+                        </h1>
+                        <p class="blurb">When you’re stressed, don’t stress it!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row introContent">
+                <div class="grid contentContainer blurbCarousel">
+                    <div class="col colFull">
+                        <h2></h2>
+                        <p class="blurb">"I really didn’t believe this would work, but it did!"—2016 Participant</p>
+                    </div>
+                    <div class="col colFull">
+                        <h2></h2>
+                        <p class="blurb">This strategy involves reappraising nerves or anxiety as excitement, and harnessing the beneficial aspects of stress. </p>
+                    </div>
+                    <div class="col colFull">
+                        <h2>Use when:</h2>
+                        <p class="blurb">You have performance anxiety or feel nervous, tense, or stressed about a challenging task such as: an interview, presentation, test, competition, difficult conversation, speaking up, etc.</p>
+                    </div>
+                    <!-- <div class="col colFull">
+                        <h2>Benefits: </h2>
+                        <p class="blurb">Research has found that it is not stress itself, but rather our negative evaluation of stress that undermines our ability to perform our best. Most of us attempt to suppress our nerves and try to calm down when we’re feeling anxious, but this may actually make things worse. Embracing and harnessing our stress response significantly improves performance, boosts confidence, and reduces the negative impact of stress on health.1,2, 3 </p>
+                    </div> -->
+
+                </div>
+            </div>
+
+            <div class="row butnContainer">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <a class="butn" href="/activity-work-ed-start.shtml">LET'S GO!</a>
+                        <a class="butn" data-popup-open="learn-more">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup" data-popup="learn-more">
+                <div class="popup-inner">
+                    <div id="scienceWork" class="subjectContainer">
+                        <div class="icon">
+                            <div class="circleWrapper">
+                                <div class="circleContainer">
+                                    <div class="circleContent">
+                                        <img src="build/assets/images/icon-work-black.png" alt="Relationships Activity" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2>When you’re stressed, don’t stress it!</h2>
+                        <p>There is intriguing new research that suggests that it is not the experience of stress that is harmful to our health, but rather the belief stress is harmful!<sup>1,2</sup> Kelly McGonigal gives an entertaining summary of this research in her TED Talk, “How to Make Stress Your Friend.” How we evaluate stress also has a tremendous impact on our ability to perform our best. When we are feeling anxious, most of us try to suppress our nerves and try to calm down, but this is often difficult to achieve and may be counterproductive. One study showed that reappraising nervousness as excitement significantly improved performance across a variety of settings. This works because the physiological signs of anxiety and excitement are very similar, so it is an easy mental leap to the more positive interpretation of excitement. Calm is the physiological opposite of anxiety, so it requires greater effort to shift from one to the other.<sup>3</sup> In another study, the simple act of reading a paragraph suggesting that stress might help test performance, led to significantly higher GRE scores.<sup>4</sup> By believing stress is good for us, or reinterpreting it as excitement, we free our mental energy from self-monitoring and worry, to fully engage in the challenge at hand.
+                        </p><br/>
+                        <ol class="footnotes">
+                            <li>McGonigal, K. (n.d.). How to make stress your friend. Retrieved February 27, 2017, from <span class="noWrap">https://www.ted.com/talks/kelly_mcgonigal_how_to_make_stress_your_friend</span></li>
+                            <li>McGonigal, K. (2015). The upside of stress: Why stress is good for you, and how to get good at it. New York: Penguin Random House.</li>
+                            <li>Brooks, A. W. (2014). Get excited: Reappraising pre-performance anxiety as excitement. Journal of Experimental Psychology: General, 143(3), 1144-1158. doi:10.1037/a0035325 </li>
+                            <li>Jamieson, J. P., Mendes, W. B., Blackstock, E., & Schmader, T. (2010). Turning the knots in your stomach into bows: Reappraising arousal improves performance on the GRE. Journal of Experimental Social Psychology, 46(1), 208-212. doi:10.1016/j.jesp.2009.08.015</li>
+                        </ol>
+                    </div>
+                    <a class="popup-close" data-popup-close="learn-more" href="#">x</a>
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

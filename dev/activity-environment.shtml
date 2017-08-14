@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper profiler">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div id="environment" class="row introHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                            <div class="cirlceContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-environment.png" alt="Environnment Activity" />
+                                </div>
+                            </div>
+                        </div>
+                        <h1>
+                            <span>ENVIRONMENT</span>
+                            <!-- <img src="build/assets/images/icon-meaning-main.png" alt="Meaning Activity" /> -->
+                        </h1>
+                        <p class="blurb">Connect with nature</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row introContent">
+                <div class="grid contentContainer blurbCarousel">
+                    <div class="col colFull">
+                        <h2></h2>
+                        <p class="blurb">"Spending time outdoors makes such a huge difference to my mood, yet I often don’t make time to do it. This helped me prioritize it." —2016 Participant</p>
+                    </div>
+                    <div class="col colFull">
+                        <h2></h2>
+                        <p class="blurb">This strategy involves spending some quality time with nature.</p>
+                    </div>
+                    <div class="col colFull">
+                        <h2>Use when:</h2>
+                        <p class="blurb">You’re feeling stressed, mentally cluttered or drained, or anytime you feel the need to unwind and recharge.</p>
+                    </div>
+                    <!-- <div class="col colFull">
+                        <h2>Benefits:</h2>
+                        <p class="blurb">improves attention, restores mental energy, relieves stress, reduces depression, anxiety and ADHD symptoms, boosts immune system. Check out this great article on the physical and mental health benefits of nature <a href="http://www.nationalgeographic.com/magazine/2016/01/call-to-wild/">http://on.natgeo.com/2iFNdTU</a></p>
+                    </div> -->
+
+                </div>
+            </div>
+
+            <div class="row butnContainer">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <a class="butn" href="/activity-environment-start.shtml">LET'S GO!</a>
+                        <a class="butn" data-popup-open="learn-more">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup" data-popup="learn-more">
+                <div class="popup-inner tips">
+                    <div id="scienceEnvironment" class="subjectContainer">
+                        <div class="icon">
+                            <div class="circleWrapper">
+                                <div class="circleContainer">
+                                    <div class="circleContent">
+                                        <img src="build/assets/images/icon-environment-black.png" alt="Environment Activity" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2>Connect with nature</h2>
+                        <p>Spending time in nature improves attention, restores mental energy, relieves stress, reduces depression, anxiety and ADHD symptoms, and boosts the immune system.<sup>1,2,3,4</sup> Nature works primarily by lowering stress. Physiological measurements of stress hormones, respiration, heart rate, and sweating indicate that even a short amount of time outdoors is calming and sharpens performance.<sup>1</sup> A study in Japan found that a 15-minute walk in the woods led to a 16% decrease in the stress hormone cortisol, a 2% drop in blood pressure, and a 4% drop in heart rate.5 Even a view of nature, or looking at pictures of natural landscapes, has a positive effect. People with a window view of trees and grass have been shown to recover faster in hospitals, perform better in school, and display less violent behavior in neighborhoods where it’s common.<sup>1,6</sup>
+                        </p><br/>
+                        <ol class="footnotes">
+                            <li>This Is Your Brain on Nature. (2017, February 22). Retrieved February 26, 2017, from <span class="noWrap">http://www.nationalgeographic.com/magazine/2016/01/call-to-wild/</span></li>
+                            <li>Bratman, G. N., Hamilton, J. P., Hahn, K. S., Daily, G. C., & Gross, J. J. (2015). Nature experience reduces rumination and subgenual prefrontal cortex activation. Proceedings of the National Academy of Sciences, 112(28), 8567-8572. doi:10.1073/pnas.1510459112</li>
+                            <li>Lauren F Friedman and Kevin Loria. (2014, April 09). 11 Scientifically Proven Reasons You Should Go Outside. Retrieved February 26, 2017, from <span class="noWrap">http://www.businessinsider.com/11-reasons-you-should-go-outside-2014-4</span></li>
+                            <li>Jensen, P. (2006). A Potential Natural Treatment for Attention-Deficit/Hyperactivity Disorder: Evidence From a National Study. Yearbook of Psychiatry and Applied Mental Health, 2006, 53-54. doi:10.1016/s0084-3970(08)70057-4</li>
+                            <li>Park, B. J., Tsunetsugu, Y., Kasetani, T., Kagawa, T., & Miyazaki, Y. (2009). The physiological effects of Shinrin-yoku (taking in the forest atmosphere or forest bathing): evidence from field experiments in 24 forests across Japan. Environmental Health and Preventive Medicine, 15(1), 18-26. doi:10.1007/s12199-009-0086-9</li>
+                            <li>Mitchell, R. J., Richardson, E. A., Shortt, N. K., & Pearce, J. R. (2015). Neighborhood Environments and Socioeconomic Inequalities in Mental Well-Being. American Journal of Preventive Medicine, 49(1), 80-84. doi:10.1016/j.amepre.2015.01.017</li>
+                        </ol>
+                    </div>
+                    <a class="popup-close" data-popup-close="learn-more" href="#">x</a>
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

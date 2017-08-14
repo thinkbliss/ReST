@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper activityHealth">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div class="row activitiesHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                            <div class="cirlceContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-health-color.png" alt="Health Activity" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activityContent">
+                <div class="start">
+                    <div class="row">
+                        <div class="grid contentContainer">
+                            <div id="instructions001" class="col colFull instruction">
+                                <h2>Benefits:</h2>
+                                <p>Developing healthy sleep habits can have a dramatic impact on your well-being, benefitting MANY aspects of your life, including but not limited to:<sup>1,2</sup></p>
+                                <ul>
+                                	<li>Improving mood, motivation, optimism, energy and sociability</li>
+                                	<li>Alleviating stress, depression, and anxiety</li>
+                                	<li>Improving attention, memory, and academic performance</li>
+                                	<li>Improving physical health. In the short term, adequate sleep reduces cravings for food and substances, strengthens the immune system, and accelerates recovery from injury and illness. Over time it reduces risk for a number of chronic diseases.</li>
+                                </ul>
+                                <div class="row butnContainer">
+                                    <div class="grid">
+                                        <div class="col colFull">
+                                            <a class="butn instructions001">NEXT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="instructions002" class="col colFull instruction">
+                                <h2>Instructions</h2>
+                                <p>Please choose one or two of the sleep strategies below that you don’t already do, and try it for a full week. Pay attention to the impact it has on your sleep and how you feel.</p>
+                                <ul>
+                                	<li>Aim for 7-9 hours of sleep a night. If this is too big a jump up from how much sleep you get now, start by going to bed half an hour earlier than usual.</li>
+                                	<li>Try out a sleep app http://www.huffingtonpost.com/2013/08/30/best-sleep-apps_n_3691693.html.</li>
+                                	<li>Develop a sleep routine: try to go to bed and get up at approximately the same time each day, even on weekends, and go through the same ritual each night, for example: brush teeth, get into pajamas, and read for 15 minutes.</li>
+                                	<li>Unwind. If racing thoughts keep you up, try practicing a “mind dump” each night by jotting down your worries and unfinished tasks before going to bed. Alternatively, find an activity that absorbs your attention and helps you relax, such as reading, crossword puzzles, meditation, or journaling.</li>
+                                	<li>Avoid stimulants (caffeine, cigarettes, vigorous exercise, bright light) for a few hours before bed. Caffeine has a 5-hour half-life, and takes about a day to fully clear your system.</li>
+                                	<li>Nap: If you get tired in the afternoons, try to take a 20 to 30-minute nap, but make sure it’s not too late in the day, or it may disrupt your sleep.</li>
+                                </ul>
+                                <div class="row butnContainer">
+                                    <div class="grid">
+                                        <div class="col colFull">
+                                            <a class="butn" href="activity-health-step-001.shtml">NEXT</a>
+                                            <a class="butn instructions002-back">BACK</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="row butnContainer">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <a class="butn" href="activity-relationships-step-001.shtml">NEXT</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="row progressBar">
+                        <div class="grid">
+                            <ul class="steps">
+                                <li class="active">START
+                                    <div class="progressActive"></div>
+                                </li>
+                                <li>STEP 1</li>
+                                <li>STEP 2</li>
+                                <li>FINISH</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

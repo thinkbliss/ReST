@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper activityMeaning">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div class="row activitiesHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                            <div class="cirlceContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-meaning-color.png" alt="Meaning Activity" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activityContent">
+                <div class="start">
+                    <div class="row">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <h2>Instructions</h2>
+                                <p>Engage in 5 acts of kindness. These may be random (e.g. paying an expired parking meter) or non-random (e.g. paying a friend a stellar compliment)
+                        		To get the most impact from this exercise, perform all 5 acts on one day, and vary what you do, i.e. do different things rather than the same thing 5 times.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row butnContainer">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <a class="butn" href="/activity-meaning-step-001.shtml">NEXT</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row progressBar">
+                        <div class="grid">
+                            <ul class="steps">
+                                <li>START</li>
+                                <li>STEP 1</li>
+                                <li class="active">STEP 2</li>
+                                <li>FINISH</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

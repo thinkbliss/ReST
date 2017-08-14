@@ -1,0 +1,100 @@
+// rows
+
+.containerWrapper {
+    .contentContainer {
+        //width: 350px;
+    }
+}
+
+.grid {
+	// position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+	&:after {
+		/* Or @extend clearfix */
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+    //margin: 0 15px;
+	&:after {
+		/* Or @extend clearfix */
+		content: "";
+		display: table;
+		clear: both;
+	}
+    &.introHeader {
+        position: relative;
+        z-index: 1;
+        &:before,
+        &:after {
+            background: inherit;
+            content: '';
+            display: block;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            right: 0;
+            z-index: -1;
+            -webkit-backface-visibility: hidden;
+            outline: 1px solid transparent;
+        }
+        &:after {
+            bottom: 0;
+            transform: skewY(-6deg);
+            transform-origin: 120%;
+        }
+        &#intro {
+            background: $profile;
+        }
+        &#meaning {
+            background: $meaning;
+        }
+        &#relationships {
+            background: $relationships;
+        }
+        &#emotions {
+            background: $emotions;
+        }
+        &#environment {
+            background-color: $environment;
+        }
+        &#health {
+            background: $health;
+        }
+        &#work {
+            background: $work;
+        }
+        &#motivation {
+            background: #f15f6a;
+        }
+    }
+    &.introContent {
+        padding: 12% 0 0;
+    }
+}
+
+// columns
+.col {
+    float: left;
+    &.colFull {
+        width: 100%;
+    }
+    &.colHalves {
+        width: 50%;
+    }
+    &.colThirds {
+        width: 33.3%;
+    }
+}
+
+// calcs

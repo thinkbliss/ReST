@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper activityWork">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div class="row activitiesHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                            <div class="cirlceContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-work-color.png" alt="Work/Education Activity" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activityContent">
+                <div class="start">
+                    <div class="row">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <h2>Step 1</h2>
+                                <p>What do you feel nervous about that you could apply this to?</p>
+                                <form class="keepFormData" id="activityWorkStatment">
+                                    <textarea class="textEntry" name="textEntry"></textarea>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row butnContainer">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <a class="butn" href="/activity-work-ed-step-002.shtml">NEXT</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row progressBar">
+                        <div class="grid">
+                            <ul class="steps">
+                                <li>START</li>
+                                <li class="active">STEP 1
+                                    <div class="progressActive"></div>
+                                </li>
+                                <li>STEP 2</li>
+                                <li>FINISH</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

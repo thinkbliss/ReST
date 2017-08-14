@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper activityRelationships">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div class="row activitiesHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                            <div class="cirlceContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-relationships-color.png" alt="Relationships Activity" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activityContent">
+                <div class="start">
+                    <div class="row">
+                        <div class="grid contentContainer">
+                            <div id="instructions001" class="col colFull instruction">
+                                <h2>Benefits:</h2>
+                                <p>This exercise has been shown to increase happiness over the course of the week, and even a month later, and can strengthen social engagement and connection. It can also improve your self-image, by helping you see yourself as generous, capable, and as having something to offer. </p>
+                                <div class="row butnContainer">
+                                    <div class="grid">
+                                        <div class="col colFull">
+                                            <a class="butn instructions001">NEXT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="instructions002" class="col colFull instruction instruction">
+                                <h2>Instructions</h2>
+                                <p>Engage in 5 acts of kindness. These may be random (e.g. paying an expired parking meter) or non-random (e.g. paying a friend a stellar compliment)<br/><br/>
+                        		To get the most impact from this exercise, perform all 5 acts on one day, and vary what you do, i.e. do different things rather than the same thing 5 times.</p>
+                                <div class="row butnContainer">
+                                    <div class="grid">
+                                        <div class="col colFull">
+                                            <a class="butn" href="activity-relationships-step-001.shtml">NEXT</a>
+                                            <a class="butn instructions002-back">BACK</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="row butnContainer">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <a class="butn" href="activity-relationships-step-001.shtml">NEXT</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="row progressBar">
+                        <div class="grid">
+                            <ul class="steps">
+                                <li class="active">START
+                                    <div class="progressActive"></div>
+                                </li>
+                                <li>STEP 1</li>
+                                <li>STEP 2</li>
+                                <li>FINISH</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

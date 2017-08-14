@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper tips">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div class="row headerContainer simpleHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon"></div>
+                        <h1 class="serif">
+                            <img src="build/assets/images/logo-small.png" alt="RESILIENCY TRAINING" />
+                            <span>Tips &amp; Tricks</span>
+                        </h1>
+                        <p class="blurb"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row tipWrapper">
+                <div class="grid contentContainer">
+                    <div class="col colHalves">
+                        <div id="environment" class="blockContainer" data-popup-open="environment">
+                            <p>CONNECT WITH NATURE</p>
+                        </div>
+                    </div>
+                    <div class="col colHalves">
+                        <div id="health" class="blockContainer" data-popup-open="health">
+                            <p>GET THE RIGHT LIGHT</p>
+                        </div>
+                    </div>
+                    <div class="col colHalves">
+                        <div id="work" class="blockContainer" data-popup-open="work">
+                            <p>WHEN YOU’RE STRESSED, DON’T STRESS IT</p>
+                        </div>
+                    </div>
+                    <div class="col colHalves">
+                        <div id="meaning" class="blockContainer" data-popup-open="meaning">
+                            <p>GET OUT OF YOUR HEAD</p>
+                        </div>
+                    </div>
+                    <div class="col colHalves">
+                        <div id="relationships" class="blockContainer" data-popup-open="relationships">
+                            <p>ACTS OF KINDNESS</p>
+                        </div>
+                    </div>
+                    <div class="col colHalves">
+                        <div id="emotions" class="blockContainer" data-popup-open="emotions">
+                            <p>THE HAPPINESS PARADOX</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popup tips" data-popup="environment">
+                    <div class="popup-inner environment">
+                        <h2>Connect with Nature</h2>
+                        <p>Did you know that walking in the woods for as little as 15 minutes causes measurable physiological changes? A study in Japan found that a 15-minute nature walk led to a 16% decrease in the stress hormone cortisol, a 2% drop in blood pressure, and a 4% drop in heart rate.<br/><br/><span class="listIntro">Bottom Line:</span> Go outside!</p>
+                        <a class="popup-close" data-popup-close="environment" href="#">x</a>
+                    </div>
+                </div>
+
+                <div class="popup tips" data-popup="health">
+                    <div class="popup-inner health">
+                        <h2>Get the Right Light</h2>
+                        <p>To remedy sleep woes, try to get some morning exposure to natural daylight, or strong light with blue tones. In the evening, shift to softer light with red and orange tones, and limit exposure to bright lights, including electronic screens, as you approach sleep. <br/><br/><span class="listIntro">Bottom Line:</span> To brighten your mood, brighten your morning (and de-light your night).</p>
+                        <a class="popup-close" data-popup-close="health" href="#">x</a>
+                    </div>
+                </div>
+
+                <div class="popup tips" data-popup="work">
+                    <div class="popup-inner work">
+                        <h2>Be the Boss … of your actions</h2>
+                        <p>We often let our emotions dictate what we do, waiting until we are confident or “in the right mood” before taking action. However, leading a fulfilling life requires that we repeatedly choose to do what is important to us, even if we <i>feel</i> like crap and would rather hide under the covers. <br/><br/><span class="listIntro">Bottom Line:</span> Instead of trying to control your mood, control your actions, and your mood will eventually follow.</p>
+                        <a class="popup-close" data-popup-close="work" href="#">x</a>
+                    </div>
+                </div>
+
+                <div class="popup tips" data-popup="meaning">
+                    <div class="popup-inner meaning">
+                        <h2>Get Out of Your Head and into Someone Else’s Shoes</h2>
+                        <p>To make a connection during a social or professional interaction, rather than trying to impress, focus on what the other person might be thinking or feeling. This will reduce self-consciousness, and allow you to dedicate your full attention to reading and responding to the situation. <br/><br/><span class="listIntro">Bottom Line:</span> To connect with others, focus on them not you.</p>
+                        <a class="popup-close" data-popup-close="meaning" href="#">x</a>
+                    </div>
+                </div>
+
+                <div class="popup tips" data-popup="relationships">
+                    <div class="popup-inner relationships">
+                        <h2>It Helps to Help</h2>
+                        <p>Did you know that altruism is one of the greatest buffers against depression? Doing something for someone else raises our own levels of hope, joy and happiness and helps us cope with difficult or traumatic events. <br/><br/><span class="listIntro">Bottom Line:</span> Lifting someone else’s spirits will lift yours as well.</p>
+                        <a class="popup-close" data-popup-close="relationships" href="#">x</a>
+                    </div>
+                </div>
+
+                <div class="popup tips" data-popup="emotions">
+                    <div class="popup-inner emotions">
+                        <h2>The Happiness Paradox</h2>
+                        <p>The media inundates us with the message that we’re supposed to be happy. This can contribute to feeling bad about feeling bad, and make us try to suppress, ignore or deny difficult emotions. Unfortunately, this only makes these emotions stronger and more persistent. <br/><br/><span class="listIntro">Bottom Line:</span> If you want to be happier, accept negative feelings and remind yourself they will pass.</p>
+                        <a class="popup-close" data-popup-close="emotions" href="#">x</a>
+                    </div>
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

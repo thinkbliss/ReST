@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div id="confetti"></div>
+
+        <div class="containerWrapper activityEnvironment finishTip">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div class="row activitiesHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                            <div class="cirlceContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-Environment-color.png" alt="Environment Activity" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activityContent finishTip">
+                <div class="wellDone">
+                    <div class="row">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <div class="circleContainer">
+                                    <div class="circleContent">
+                                        <p>WELL DONE</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row butnContainer">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <a class="butn" href="/">BACK TO PROFILE</a>
+                                <a class="butn" href="/science.shtml">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="finish">
+                    <div class="row">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <a class="close">x</a>
+                                <h2>Tip!</h2>
+                                <h3 class="blurb">Take a hike!</h3>
+                                <p>Did you know that walking in the woods for as little as 15 minutes causes measurable physiological changes? A study in Japan found that a 15-minute nature walk led to a 16% decrease in the stress hormone cortisol, a 2% drop in blood pressure, and a 4% drop in heart rate. <br/><br/><span class="listIntro">Bottom Line:</span> Go outside!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row butnContainer">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <a class="butn" href="/tips-and-tricks.shtml">SEE MORE TIPS &AMP; TRICKS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row progressBar">
+                    <div class="grid">
+                        <ul class="steps">
+                            <li>START</li>
+                            <li>STEP 1</li>
+                            <li>STEP 2</li>
+                            <li class="active">FINISH</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

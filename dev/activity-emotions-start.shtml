@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper activityEmotions">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div class="row activitiesHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                            <div class="cirlceContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-emotions-color.png" alt="Emotions Activity" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activityContent">
+                <div class="start">
+                    <div class="row">
+                        <div class="grid contentContainer">
+                            <div id="instructions001" class="col colFull instruction">
+                                <h2>Benefits</h2>
+                                <p>Practice the following steps when you are having negative thoughts or a stress reaction:</p>
+                                <ul>
+                                    <li>Learning to defuse negative thoughts significantly decreases anxiety and depression.<sup>1,2</sup></li>
+                                    <li>Quick recovery from stress will enable you to be more be more focused and productive, and help you handle conflict and crises more effectively. This has enormous benefit in relationships and work.<sup>3</sup></li>
+                                </ul>
+                                <div class="row butnContainer">
+                                    <div class="grid">
+                                        <div class="col colFull">
+                                            <a class="butn instructions001">NEXT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="instructions002" class="col colFull instruction">
+                                <h2>Instructions</h2>
+                                <p>Practice the following steps when you are having negative thoughts or a stress reaction:</p>
+                                <ol>
+                                    <li>Notice: as soon as you notice you are having negative thoughts, or a negative emotional reaction, take a deep breath, and bring your attention to what you are thinking and feeling. </li>
+                                    <li>Accept: rather than trying to ignore, resist or otherwise change your thoughts and emotions, try to accept them. It can help to imagine that you are a nonjudgmental, compassionate observer, narrating your experience.</li>
+                                    <li>Narrate: name whatever you are thinking and feeling, "noting" your experience out loud or to yourself, e.g. "You’re feeling tense and angry and you’re thinking this isn’t fair.""</li>
+                                </ol>
+                                <p>When you’ve finished, take a couple of slow, deep breathes, and return your attention to the task at hand or your next steps.</p>
+                                <div class="row butnContainer">
+                                    <div class="grid">
+                                        <div class="col colFull">
+                                            <a class="butn" href="activity-emotions-step-001.shtml">NEXT</a>
+                                            <a class="butn instructions002-back">BACK</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div id="instructions003" class="col colFull instruction">
+                                <h2>Instructions</h2>
+                                <p>It’s easy to forget these steps when we need them most, so please take a moment to create an “Oh #$%^&*!!!! Plan” to remind yourself to Notice, Accept, and Narrate (NAAN) negative thoughts or feelings. It may be helpful to carry a pebble in your pocket, wear a bracelet or rubber band around your wrist, or choose a new screensaver image as a reminder, or develop a plan that will work for you. </p>
+                                <div class="row butnContainer">
+                                    <div class="grid">
+                                        <div class="col colFull">
+                                            <a class="butn" href="activity-emotions-step-001.shtml">NEXT</a>
+                                            <a class="butn instructions003-back">BACK</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+
+                        </div>
+                    </div>
+
+                    <!-- <div class="row butnContainer">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <a id="add-todo" class="butn">NEXT</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="row progressBar">
+                        <div class="grid">
+                            <ul class="steps">
+                                <li class="active">START
+                                    <div class="progressActive"></div>
+                                </li>
+                                <li>STEP 1</li>
+                                <li>STEP 2</li>
+                                <li>FINISH</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

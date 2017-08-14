@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper wideContent">
+            <!--#include virtual="includes/_include-header.shtml" -->
+
+            <div class="row headerContainer simpleHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                        </div>
+                        <img class="science" src="build/assets/images/logo-small.png" alt="RESILIENCY TRAINING" />
+                        <h1>
+                            <span class="serif">The Science</span>
+                        </h1>
+                        <p class="blurb"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row activitiesContainer">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div id="scienceMeaning" class="subjectContainer">
+                            <div class="icon">
+                                <div class="circleWrapper">
+                                    <div class="circleContainer">
+                                        <div class="circleContent">
+                                            <img src="build/assets/images/icon-meaning-black.png" alt="Relationships Activity" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2>Think Big</h2>
+                            <p>A common response to feeling down or overwhelmed is to turn inward, withdraw, and try to conserve our energy. When our emotional resources are depleted it can feel counterintuitive to turn our attention outward, yet doing so helps to buffer against stress and depression, lift mood and restore energy.<sup>3,4</sup> Broadening our perspective is also helpful in high stakes situations such as job interviews, exams, or public speaking.</p><br/>
+                            <p>
+                            By focusing on a bigger-than-self goal, value, or purpose, we shift our attention away from concerns about making a good impression, or what other people are thinking of us. Investment in “image-management” has been shown to contribute to higher levels of anxiety, depression, competitiveness, confusion, self-consciousness, isolation, and self-criticism.<sup>1</sup> Alternatively, a more compassionate or value-driven approach is correlated with decreased depression and anxiety, feeling more peaceful, engaged, loving and cooperative. When we come from this broader perspective, we also make stronger connections, gain greater personal and professional support, and are more successful at achieving our goals.<sup>1</sup></p><br/>
+                            <p>
+                            Whenever you find yourself becoming overly concerned about what others think of you, or feel the need to make a good impression, try widening your perspective by reflecting on a larger purpose. You might be surprised at the impact this has on the ease and quality of your interactions.
+                            </p><br/>
+                            <ol class="footnotes">
+                                <li>Crocker, J., Olivier, M., & Nuer, N. (2009). Self-image Goals and Compassionate Goals: Costs and Benefits. Self and Identity, 8(2-3), 251-269. doi:10.1080/15298860802505160</li>
+                                <li>Yeager, D. S., Henderson, M. D., Paunesku, D., Walton, G. M., D'mello, S., Spitzer, B. J., & Duckworth, A. L. (2014). Boring but important: A self-transcendent purpose for learning fosters academic self-regulation. Journal of Personality and Social Psychology, 107(4), 559-580. </li>
+                                <li>McGonigal, K. (2015). The upside of stress: Why stress is good for you, and how to get good at it. New York: Penguin Random House.</li>
+                                <li>Ben-Shahar, T. (2007). Happier: Learn the secrets to daily joy and lasting fulfillment. New York: McGraw-Hill.</li>
+                            </ol>
+                        </div>
+
+                        <div id="scienceRelationships" class="subjectContainer">
+                            <div class="icon">
+                                <div class="circleWrapper">
+                                    <div class="circleContainer">
+                                        <div class="circleContent">
+                                            <img src="build/assets/images/icon-relationships-black.png" alt="Relationships Activity" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2>Acts of Kindness</h2>
+                            <p>Acts of genuine kindness or altruism raise our own levels of hope, joy and happiness, and are a strong buffer against stress and depression.<sup>3</sup> Altruism works by:</p><br/>
+                            <ul>
+                                <li>Raising oxytocin levels. Oxytocin has been referred to as the “love” or “bonding” hormone, and it fosters connection, boosts positive emotion, and relieves stress.<sup>4</sup> </li>
+                                <li>Getting you out of your head (not a fun place to be if you’re feeling stressed or depressed) and focused on others.<sup>4</sup></li>
+                                <li>Strengthening social bonds. Kindness generates appreciation, goodwill and reciprocity, which brings people closer together.<sup>2,4</sup></li>
+                                <li>Changing how you see yourself. By acting with generosity, you begin to see yourself as a kind, generous and helpful person.<sup>2</sup></li>
+                            </ul><br/>
+                            <p>For this strategy to be effective it is essential that the kindness is authentic, not offered out of a sense of obligation.</p><br/>
+
+                            <ol class="footnotes">
+                                <li>Crocker, J., Olivier, M., & Nuer, N. (2009). Self-image Goals and Compassionate Goals: Costs and Benefits. Self and Identity, 8(2-3), 251-269. doi:10.1080/15298860802505160</li>
+                                <li>Yeager, D. S., Henderson, M. D., Paunesku, D., Walton, G. M., D'mello, S., Spitzer, B. J., & Duckworth, A. L. (2014). Boring but important: A self-transcendent purpose for learning fosters academic self-regulation. Journal of Personality and Social Psychology, 107(4), 559-580. </li>
+                                <li>McGonigal, K. (2015). The upside of stress: Why stress is good for you, and how to get good at it. New York: Penguin Random House.</li>
+                                <li>Ben-Shahar, T. (2007). Happier: Learn the secrets to daily joy and lasting fulfillment. New York: McGraw-Hill.</li>
+                            </ol>
+                        </div>
+
+                        <div id="scienceHealth" class="subjectContainer">
+                            <div class="icon">
+                                <div class="circleWrapper">
+                                    <div class="circleContainer">
+                                        <div class="circleContent">
+                                            <img src="build/assets/images/icon-health-black.png" alt="Relationships Activity" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2>Improve Your Sleep</h2>
+                            <p>Getting 7-9 hours of restful sleep may be the single most important thing you can do for your physical and emotional health, and cognitive performance.<sup>1,2</sup> After only one night of sleep loss, we experience a 30% loss of cognitive ability, and after 5 nights in a row of only 6 hours of sleep, we experience a 60% drop in cognitive functioning.<sup>2</sup> Poor sleep contributes to a number of chronic health conditions, and we now know that it is not only a symptom of mental health disorders, but also a cause of them. One longitudinal study found that people who had a history of insomnia were 4 times more like to develop depression over the next 3 years, compared to normal sleepers.<sup>6</sup> Sleep also helps us recuperate from stressful or traumatic experiences. A study that followed repatriated prisoners of war found that sleep was the strongest predictor of mental resilience.<sup>4</sup></p><br/>
+                            <p>
+                            There is still much to learn about the precise function of sleep, but we do know that there are 5 stages of sleep, lasting 60-110 minutes each, that we need to cycle through several times a night for optimal health and performance.<sup>4</sup> The first 4 stages are “quiet,” increasingly deep sleep, the last of which produces physiological changes that help boost immune system functioning. From this stage we progress into REM sleep, where dreaming occurs. REM sleep enhances learning and memory, and contributes to emotional health. Interruptions to the cycle cause us to start over, and can prevent us from getting to the stages of sleep where we replenish our cognitive and emotional resources. If you are one of the 30% of Americans who are sleep-deprived, consider trying one or more of the strategies to improve your sleep.</p><br/>
+                            <ol class="footnotes">
+                                <li>Huffington, A. S. (2016). The sleep revolution: Transforming your life, one night at a time. </li>
+                                <li>Medina, J. (2008). Brain rules: 12 principles for surviving and thriving at work, home, and school. Seattle, WA: Pear Press.</li>
+                                <li>F., & G., M. (2015, June 1). Light Therapy for Better Sleep. Sleep Review.</li>
+                                <li>Publications, H. H. (2009, July). Sleep and mental health. Retrieved April 09, 2017, from <span class="noWrap">http://www.health.harvard.edu/newsletter_article/Sleep-and-mental-health</span></li>
+                                <li>Segovia, F., Moore, J. L., Linnville, S., Hoyt, R. E., & Hain, R. E. (2013). Sleep and Resilience: A Longitudinal 37-Year Follow-up Study of Vietnam Repatriated Prisoners of War. Military Medicine, 178(2), 196-201. doi:10.7205/milmed-d-12-00227</li>
+                                <li>Gregory AM, et al. (Feb. 1, 2009). The Direction of Longitudinal Associations Between Sleep Problems and Depr</li>
+                            </ol>
+                        </div>
+
+                        <div id="scienceEmotions" class="subjectContainer">
+                            <div class="icon">
+                                <div class="circleWrapper">
+                                    <div class="circleContainer">
+                                        <div class="circleContent">
+                                            <img src="build/assets/images/icon-emotions-black.png" alt="Relationships Activity" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2>Noting Practice</h2>
+                            <p>Despite popular belief in the power of positive thinking, learning how to handle negative thoughts has a much greater impact on well-being and success than positive thinking. In fact, repeating affirmations that you don’t really believe can actually make you feel worse by highlighting the gap between what you’re telling yourself and how you truly feel.1 Similarly, attempting to suppress or deny negative thoughts makes them stronger and more persistent.<sup>2,5</sup> Noting practice neutralizes the power of negative thoughts by helping us to disengage, and to view our thoughts from a greater distance, which may allow us to recognize that not everything we think is inherently true. Naming our thoughts and feelings in the midst of a stress response actively engages the prefrontal cortex, which helps us quickly transition out of the amygdala “fight or flight” mode to a more balanced response.<sup>3</sup> Noting practice has been shown to decrease stress, anxiety, depression and insecurity.<sup>1,2,3,5</sup></p><br/>
+                            <ol class="footnotes">
+                                <li>Kay, K. S. (2014). The Confidence Code: The science and art of self-assurance—what women should know. New York: HarperCollins. </li>
+                                <li>Harris, R. (2011). The Confidence Gap: A guide to overcoming fear and self-doubt. Boston: Trumpeter.</li>
+                                <li>Goulston, M., & Ferrazzi, K. (2010). Just Listen. New York, NY: AMACOM.</li>
+                                <li>Whippman, R. (2017). America The Anxious: how our pursuit of happiness is creating a nation of nervous wrecks. S.l.: Griffin.</li>
+                                <li>McGonigal, K. (2015). The upside of stress: Why stress is good for you, and how to get good at it. New York: Penguin Random House.</li>
+                            </ol>
+                        </div>
+
+                        <div id="scienceEnvironment" class="subjectContainer">
+                            <div class="icon">
+                                <div class="circleWrapper">
+                                    <div class="circleContainer">
+                                        <div class="circleContent">
+                                            <img src="build/assets/images/icon-environment-black.png" alt="Environment Activity" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2>Connect with nature</h2>
+                            <p>Spending time in nature improves attention, restores mental energy, relieves stress, reduces depression, anxiety and ADHD symptoms, and boosts the immune system.<sup>1,2,3,4</sup> Nature works primarily by lowering stress. Physiological measurements of stress hormones, respiration, heart rate, and sweating indicate that even a short amount of time outdoors is calming and sharpens performance.<sup>1</sup> A study in Japan found that a 15-minute walk in the woods led to a 16% decrease in the stress hormone cortisol, a 2% drop in blood pressure, and a 4% drop in heart rate.5 Even a view of nature, or looking at pictures of natural landscapes, has a positive effect. People with a window view of trees and grass have been shown to recover faster in hospitals, perform better in school, and display less violent behavior in neighborhoods where it’s common.<sup>1,6</sup>
+                            </p><br/>
+                            <ol class="footnotes">
+                                <li>This Is Your Brain on Nature. (2017, February 22). Retrieved February 26, 2017, from <span class="noWrap">http://www.nationalgeographic.com/magazine/2016/01/call-to-wild/</span></li>
+                                <li>Bratman, G. N., Hamilton, J. P., Hahn, K. S., Daily, G. C., & Gross, J. J. (2015). Nature experience reduces rumination and subgenual prefrontal cortex activation. Proceedings of the National Academy of Sciences, 112(28), 8567-8572. doi:10.1073/pnas.1510459112</li>
+                                <li>Lauren F Friedman and Kevin Loria. (2014, April 09). 11 Scientifically Proven Reasons You Should Go Outside. Retrieved February 26, 2017, from <span class="noWrap">http://www.businessinsider.com/11-reasons-you-should-go-outside-2014-4</span></li>
+                                <li>Jensen, P. (2006). A Potential Natural Treatment for Attention-Deficit/Hyperactivity Disorder: Evidence From a National Study. Yearbook of Psychiatry and Applied Mental Health, 2006, 53-54. doi:10.1016/s0084-3970(08)70057-4</li>
+                                <li>Park, B. J., Tsunetsugu, Y., Kasetani, T., Kagawa, T., & Miyazaki, Y. (2009). The physiological effects of Shinrin-yoku (taking in the forest atmosphere or forest bathing): evidence from field experiments in 24 forests across Japan. Environmental Health and Preventive Medicine, 15(1), 18-26. doi:10.1007/s12199-009-0086-9</li>
+                                <li>Mitchell, R. J., Richardson, E. A., Shortt, N. K., & Pearce, J. R. (2015). Neighborhood Environments and Socioeconomic Inequalities in Mental Well-Being. American Journal of Preventive Medicine, 49(1), 80-84. doi:10.1016/j.amepre.2015.01.017</li>
+                            </ol>
+                        </div>
+
+                        <div id="scienceWork" class="subjectContainer">
+                            <div class="icon">
+                                <div class="circleWrapper">
+                                    <div class="circleContainer">
+                                        <div class="circleContent">
+                                            <img src="build/assets/images/icon-work-black.png" alt="Relationships Activity" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2>When you’re stressed, don’t stress it!</h2>
+                            <p>There is intriguing new research that suggests that it is not the experience of stress that is harmful to our health, but rather the belief stress is harmful!<sup>1,2</sup> Kelly McGonigal gives an entertaining summary of this research in her TED Talk, “How to Make Stress Your Friend.” How we evaluate stress also has a tremendous impact on our ability to perform our best. When we are feeling anxious, most of us try to suppress our nerves and try to calm down, but this is often difficult to achieve and may be counterproductive. One study showed that reappraising nervousness as excitement significantly improved performance across a variety of settings. This works because the physiological signs of anxiety and excitement are very similar, so it is an easy mental leap to the more positive interpretation of excitement. Calm is the physiological opposite of anxiety, so it requires greater effort to shift from one to the other.<sup>3</sup> In another study, the simple act of reading a paragraph suggesting that stress might help test performance, led to significantly higher GRE scores.<sup>4</sup> By believing stress is good for us, or reinterpreting it as excitement, we free our mental energy from self-monitoring and worry, to fully engage in the challenge at hand.
+                            </p><br/>
+                            <ol class="footnotes">
+                                <li>McGonigal, K. (n.d.). How to make stress your friend. Retrieved February 27, 2017, from <span class="noWrap">https://www.ted.com/talks/kelly_mcgonigal_how_to_make_stress_your_friend</span></li>
+                                <li>McGonigal, K. (2015). The upside of stress: Why stress is good for you, and how to get good at it. New York: Penguin Random House.</li>
+                                <li>Brooks, A. W. (2014). Get excited: Reappraising pre-performance anxiety as excitement. Journal of Experimental Psychology: General, 143(3), 1144-1158. doi:10.1037/a0035325 </li>
+                                <li>Jamieson, J. P., Mendes, W. B., Blackstock, E., & Schmader, T. (2010). Turning the knots in your stomach into bows: Reappraising arousal improves performance on the GRE. Journal of Experimental Social Psychology, 46(1), 208-212. doi:10.1016/j.jesp.2009.08.015</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

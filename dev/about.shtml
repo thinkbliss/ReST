@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper wideContent">
+            <!--#include virtual="includes/_include-header.shtml" -->
+
+            <div class="row headerContainer simpleHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                        </div>
+                        <h1>
+                            <img src="build/assets/images/logo-small.png" alt="RESILIENCY TRAINING" />
+                            <span class="serif">About</span>
+                        </h1>
+                        <p class="blurb"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row activitiesContainer">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div id="scienceMeaning" class="subjectContainer">
+                            <!-- <div class="icon">
+                                <div class="circleWrapper">
+                                    <div class="circleContainer">
+                                        <div class="circleContent">
+                                            <img src="build/assets/images/icon-meaning-black.png" alt="Relationships Activity" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- <h2>About ReST</h2> -->
+                            <p>ReST is based on the idea that small investments of time and effort can result in big improvements in well-being. We’ve sorted through the confusing mass of research, advice and misinformation, (so that you don’t have to) and have identified strategies that work. We’ve translated these strategies into a menu of bite-sized activities that decrease stress, anxiety and depression, and improve social connection, health, and success. We help you bridge the gap between knowing what will make you feel better, and actually doing it, and keeping the program engaging and motivating. You may visit www.growingwellness.life for more information about our programs and who we are. Enjoy!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

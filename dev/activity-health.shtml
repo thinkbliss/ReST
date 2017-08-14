@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper profiler">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div id="health" class="row introHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                            <div class="cirlceContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-health.png" alt="Health Activity" />
+                                </div>
+                            </div>
+                        </div>
+                        <h1>
+                            <span>HEALTH</span>
+                            <!-- <img src="build/assets/images/icon-meaning-main.png" alt="Meaning Activity" /> -->
+                        </h1>
+                        <p class="blurb">Improve Your Sleep</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row introContent">
+                <div class="grid contentContainer blurbCarousel">
+                    <div class="col colFull">
+                        <h2></h2>
+                        <p class="blurb">"While I was taking part in the course, I was more tapped into what my body needed and gave it the proper sleep and food it desired. I learned just how important wellness is and the great benefits related to taking care of myself properly." – 2015 Participant</p>
+                    </div>
+                    <div class="col colFull">
+                        <h2></h2>
+                        <p class="blurb">Sleep is essential to physical and mental health and optimal functioning. This exercise involves engaging in one or two strategies to improve the quality and/or quantity of your sleep.</p>
+                    </div>
+                    <div class="col colFull">
+                        <h2>Use when:</h2>
+                        <p class="blurb">you want to improve all aspects of your health, mood, attention and performance, and you are getting less than 7-9 hours of sleep a night, have difficulty falling asleep or staying asleep, the quality of your sleep is poor, or you feel tired.
+</p>
+                    </div>
+                    <!-- <div class="col colFull">
+                        <h2>Benefits:</h2>
+                        <p class="blurb">you want to boost other people’s happiness and your own, and you think “this could be fun!</p>
+                    </div> -->
+
+                </div>
+            </div>
+
+            <div class="row butnContainer">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <a class="butn" href="/activity-health-start.shtml">LET'S GO!</a>
+                        <a class="butn" data-popup-open="learn-more">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup" data-popup="learn-more">
+                <div class="popup-inner tips">
+                    <div id="scienceHealth" class="subjectContainer">
+                        <div class="icon">
+                            <div class="circleWrapper">
+                                <div class="circleContainer">
+                                    <div class="circleContent">
+                                        <img src="build/assets/images/icon-health-black.png" alt="Relationships Activity" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2>Improve Your Sleep</h2>
+                        <p>Getting 7-9 hours of restful sleep may be the single most important thing you can do for your physical and emotional health, and cognitive performance.<sup>1,2</sup> After only one night of sleep loss, we experience a 30% loss of cognitive ability, and after 5 nights in a row of only 6 hours of sleep, we experience a 60% drop in cognitive functioning.<sup>2</sup> Poor sleep contributes to a number of chronic health conditions, and we now know that it is not only a symptom of mental health disorders, but also a cause of them. One longitudinal study found that people who had a history of insomnia were 4 times more like to develop depression over the next 3 years, compared to normal sleepers.<sup>6</sup> Sleep also helps us recuperate from stressful or traumatic experiences. A study that followed repatriated prisoners of war found that sleep was the strongest predictor of mental resilience.<sup>4</sup></p><br/>
+                        <p>
+                        There is still much to learn about the precise function of sleep, but we do know that there are 5 stages of sleep, lasting 60-110 minutes each, that we need to cycle through several times a night for optimal health and performance.<sup>4</sup> The first 4 stages are “quiet,” increasingly deep sleep, the last of which produces physiological changes that help boost immune system functioning. From this stage we progress into REM sleep, where dreaming occurs. REM sleep enhances learning and memory, and contributes to emotional health. Interruptions to the cycle cause us to start over, and can prevent us from getting to the stages of sleep where we replenish our cognitive and emotional resources. If you are one of the 30% of Americans who are sleep-deprived, consider trying one or more of the strategies to improve your sleep.</p><br/>
+                        <ol class="footnotes">
+                            <li>Huffington, A. S. (2016). The sleep revolution: Transforming your life, one night at a time. </li>
+                            <li>Medina, J. (2008). Brain rules: 12 principles for surviving and thriving at work, home, and school. Seattle, WA: Pear Press.</li>
+                            <li>F., & G., M. (2015, June 1). Light Therapy for Better Sleep. Sleep Review.</li>
+                            <li>Publications, H. H. (2009, July). Sleep and mental health. Retrieved April 09, 2017, from <span class="noWrap">http://www.health.harvard.edu/newsletter_article/Sleep-and-mental-health</span></li>
+                            <li>Segovia, F., Moore, J. L., Linnville, S., Hoyt, R. E., & Hain, R. E. (2013). Sleep and Resilience: A Longitudinal 37-Year Follow-up Study of Vietnam Repatriated Prisoners of War. Military Medicine, 178(2), 196-201. doi:10.7205/milmed-d-12-00227</li>
+                            <li>Gregory AM, et al. (Feb. 1, 2009). The Direction of Longitudinal Associations Between Sleep Problems and Depr</li>
+                        </ol>
+                    </div>
+                    <a class="popup-close" data-popup-close="learn-more" href="#">x</a>
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

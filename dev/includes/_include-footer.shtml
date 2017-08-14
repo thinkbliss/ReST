@@ -1,0 +1,7 @@
+            <div class="footerWrapper">
+                <ul>
+                    <li><a href="/about.shtml">About</a></li>
+                    <li><a href="/privacy-policy.shtml">Privacy Policy</a></li>
+                    <li><span>&copy; Thrive 2017<br/>Thrive: Growing Wellness</span></li>
+                </ul>
+            </div>

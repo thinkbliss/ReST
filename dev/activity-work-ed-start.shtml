@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper activityWork">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div class="row activitiesHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                            <div class="cirlceContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-work-color.png" alt="Work/Education Activity" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activityContent">
+                <div class="start">
+                    <div class="row">
+                        <div class="grid contentContainer">
+                            <div id="instructions001" class="col colFull instruction">
+                                <h2>Benefits</h2>
+                                <p>Research has found that it is not stress itself, but rather our negative evaluation of stress that undermines our ability to perform our best. Most of us attempt to suppress our nerves and try to calm down when we’re feeling anxious, but this may actually make things worse. Embracing and harnessing our stress response significantly improves performance, boosts confidence, and reduces the negative impact of stress on health.<sup>1,2,3</sup></p>
+                                <div class="row butnContainer">
+                                    <div class="grid">
+                                        <div class="col colFull">
+                                            <a class="butn instructions001">NEXT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="instructions002" class="col colFull instruction">
+                                <h2>Instructions</h2>
+                                <ul>
+                                    <li>When you notice the first physiological signs of arousal (increased heart rate and breathing, butterflies in the stomach), say to yourself, “I’m excited,” or “I’m pumped.” These states are physiologically congruent, so it’s more believable than if you say “I’m relaxed and calm” when in fact your heart is pounding out of your chest.</li>
+                                    <li>If you feel nervous, remind yourself that the stress is actually helping you do well by giving you extra energy and focus and preparing you to rise to the challenge.</li>
+                                    <li>Channel the energy into the task at hand.</li>
+                                </ul>
+                                <div class="row butnContainer">
+                                    <div class="grid">
+                                        <div class="col colFull">
+                                            <a class="butn" href="activity-work-ed-step-001.shtml">NEXT</a>
+                                            <a class="butn instructions002-back">BACK</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="row butnContainer">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <a id="add-todo" class="butn">NEXT</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="row progressBar">
+                        <div class="grid">
+                            <ul class="steps">
+                                <li class="active">START
+                                    <div class="progressActive"></div>
+                                </li>
+                                <li>STEP 1</li>
+                                <li>STEP 2</li>
+                                <li>FINISH</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

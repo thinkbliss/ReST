@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper profiler">
+            <!--#include virtual="includes/_include-header.shtml" -->
+
+            <div class="row headerContainer simpleHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon"></div>
+                        <h1 class="serif">
+                            <img src="build/assets/images/logo-small.png" alt="RESILIENCY TRAINING" />
+                            <span>Activities</span>
+                        </h1>
+                        <p class="blurb">Please complete 3 of the 6 activities to achieve level 1 resiliency</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row activitiesContainer">
+                <div class="grid contentContainer">
+                    <div class="col colThirds">
+                        <div class="clickContainer circleWrapper">
+                            <a href="activity-relationships.shtml"></a>
+                            <div class="circleContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-relationships-black.png" alt="Relationships Activity" />
+                                </div>
+                            </div>
+                            <h3>RELATIONSHIPS</h3>
+                        </div>
+                    </div>
+                    <div class="col colThirds">
+                        <div class="clickContainer circleWrapper">
+                            <a href="activity-health.shtml"></a>
+                            <div class="circleContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-health-black.png" alt="Health Activity" />
+                                </div>
+                            </div>
+                            <h3>HEALTH</h3>
+                        </div>
+                    </div>
+                    <div class="col colThirds">
+                        <div class="clickContainer circleWrapper">
+                            <a href="activity-meaning.shtml"></a>
+                            <div class="circleContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-meaning-black.png" alt="Meaning Activity" />
+                                </div>
+                            </div>
+                            <h3>MEANING</h3>
+                        </div>
+                    </div>
+                    <div class="col colThirds">
+                        <div class="clickContainer circleWrapper">
+                            <a href="activity-emotions.shtml"></a>
+                            <div class="circleContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-emotions-black.png" alt="Emotions Activity" />
+                                </div>
+                            </div>
+                            <h3>EMOTIONS</h3>
+                        </div>
+                    </div>
+                    <div class="col colThirds">
+                        <div class="clickContainer circleWrapper">
+                            <a href="activity-work-ed.shtml"></a>
+                            <div class="circleContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-work-black.png" alt="Work/Education Activity" />
+                                </div>
+                            </div>
+                            <h3>WORK/<br/>EDUCATION</h3>
+                        </div>
+                    </div>
+                    <div class="col colThirds">
+                        <div class="clickContainer circleWrapper">
+                            <a href="activity-environment.shtml"></a>
+                            <div class="circleContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-environment-black.png" alt="Environment Activity" />
+                                </div>
+                            </div>
+                            <h3>ENVIRONMENT</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

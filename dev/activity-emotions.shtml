@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper profiler">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div id="emotions" class="row introHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                            <div class="cirlceContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-emotions.png" alt="Emotions Activity" />
+                                </div>
+                            </div>
+                        </div>
+                        <h1>
+                            <span>EMOTIONS</span>
+                            <!-- <img src="build/assets/images/icon-meaning-main.png" alt="Meaning Activity" /> -->
+                        </h1>
+                        <p class="blurb">Noting Practice</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row introContent">
+                <div class="grid contentContainer blurbCarousel">
+                    <div class="col colFull">
+                        <h2></h2>
+                        <p class="blurb">"When I took this course I was going through a very difficult time. It provided me better ways to handle the situations I was facing, and helped me get through. I now feel I have a great set of tools to help reduce stress and increase happiness in my life." – 2016 Participant </p>
+                    </div>
+                    <div class="col colFull">
+                        <h2></h2>
+                        <p class="blurb">This strategy will help you effectively neutralize negative thoughts and manage your stress response, or “OH #$%^&*!!!!" moments.  </p>
+                    </div>
+                    <div class="col colFull">
+                        <h2>Use when:</h2>
+                        <ul class="blurbList">
+                            <li>You are stuck in a negative thought loop of self-criticism, re-hashing, or obsessing</li>
+                            <li>You are in the throes of a “fight or flight” stress response. This is when your reptilian brain takes taken over your rational brain, known as “amygdala hijack,” which is very useful when you need to react instantaneously (e.g. to avoid a car accident or run from a mugger), but often incredibly unhelpful when you need to interact with people in an intelligent way.</li>
+                        </ul>
+                    </div>
+
+                    <!-- <div class="col colFull">
+                        <h2></h2>
+                        <p class="blurb">Benefits:
+                            <ul>
+                                <li>Learning to defuse negative thoughts significantly decreases anxiety and depression.1,2</li>
+                                <li>Quick recovery from stress will enable you to be more be more focused and productive, and help you handle conflict and crises more effectively. This has enormous benefit in relationships and work.3</li>
+                            </ul>
+                        </p>
+                    </div> -->
+
+                </div>
+            </div>
+
+            <div class="row butnContainer">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <a class="butn" href="/activity-emotions-start.shtml">LET'S GO!</a>
+                        <a class="butn" data-popup-open="learn-more">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup" data-popup="learn-more">
+                <div class="popup-inner">
+                    <div id="scienceEmotions" class="subjectContainer">
+                        <div class="icon">
+                            <div class="circleWrapper">
+                                <div class="circleContainer">
+                                    <div class="circleContent">
+                                        <img src="build/assets/images/icon-emotions-black.png" alt="Relationships Activity" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2>Noting Practice</h2>
+                        <p>Despite popular belief in the power of positive thinking, learning how to handle negative thoughts has a much greater impact on well-being and success than positive thinking. In fact, repeating affirmations that you don’t really believe can actually make you feel worse by highlighting the gap between what you’re telling yourself and how you truly feel.1 Similarly, attempting to suppress or deny negative thoughts makes them stronger and more persistent.<sup>2,5</sup> Noting practice neutralizes the power of negative thoughts by helping us to disengage, and to view our thoughts from a greater distance, which may allow us to recognize that not everything we think is inherently true. Naming our thoughts and feelings in the midst of a stress response actively engages the prefrontal cortex, which helps us quickly transition out of the amygdala “fight or flight” mode to a more balanced response.<sup>3</sup> Noting practice has been shown to decrease stress, anxiety, depression and insecurity.<sup>1,2,3,5</sup></p><br/>
+                        <ol class="footnotes">
+                            <li>Kay, K. S. (2014). The Confidence Code: The science and art of self-assurance—what women should know. New York: HarperCollins. </li>
+                            <li>Harris, R. (2011). The Confidence Gap: A guide to overcoming fear and self-doubt. Boston: Trumpeter.</li>
+                            <li>Goulston, M., & Ferrazzi, K. (2010). Just Listen. New York, NY: AMACOM.</li>
+                            <li>Whippman, R. (2017). America The Anxious: how our pursuit of happiness is creating a nation of nervous wrecks. S.l.: Griffin.</li>
+                            <li>McGonigal, K. (2015). The upside of stress: Why stress is good for you, and how to get good at it. New York: Penguin Random House.</li>
+                        </ol>
+                    </div>
+                    <a class="popup-close" data-popup-close="learn-more" href="#">x</a>
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

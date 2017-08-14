@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper profiler">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div class="row headerContainer simpleHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon"></div>
+                        <h1 class="serif">
+                            <img src="build/assets/images/logo-small.png" alt="RESILIENCY TRAINING" />
+                            <span>Username</span>
+                        </h1>
+                        <p class="blurb"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row activitiesContainer">
+                <div class="grid contentContainer">
+                    <div class="col colThirds">
+                        <div class="circleContainer clickContainer">
+                            <div class="circleContent">
+                                <p><a href="/activities.shtml">ACTIVITIES</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col colThirds">
+                        <div class="circleContainer clickContainer">
+                            <div class="circleContent">
+                                <p><a href="/tips-and-tricks.shtml">TIPS <br/>& TRICKS</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col colThirds">
+                        <div class="circleContainer clickContainer">
+                            <div class="circleContent">
+                                <p><a href="/my-motivation.shtml">My <br/>Motivation</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row profileBar">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <h3>MY RESILIENCY KIT</h3>
+                        <div class="iconGrid">
+                            <a class="icons iconRelationships"><img src="/build/assets/images/icon-relationships-simple.png" /></a>
+                            <a class="icons iconHealth"><img src="/build/assets/images/icon-health-simple.png" /></a>
+                            <a class="icons iconMeaning"><img src="/build/assets/images/icon-meaning-simple.png" /></a>
+                            <a class="icons iconEmotions"><img src="/build/assets/images/icon-emotions-simple.png" /></a>
+                            <a class="icons iconWorkEd"><img src="/build/assets/images/icon-work-simple.png" /></a>
+                            <a class="icons iconEnvironment"><img src="/build/assets/images/icon-environment-simple.png" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

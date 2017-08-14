@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper profiler">
+            <!--#include virtual="includes/_include-header.shtml" -->
+
+            <div id="intro" class="row introHeader">
+                <div class="grid contentContainer">
+                    <div class="col">
+                        <div class="icon"></div>
+                        <h1>RESILIENCY TRAINING</h1>
+                        <p class="blurb"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row introContent">
+                <div class="grid contentContainer blurbCarousel">
+                    <div class="col">
+                        <h2>Welcome to ReST!</h2>
+                        <p class="blurb">We have carefully selected a range of activities that alleviate stress anxiety and depression and boost happiness. Enjoy! </p>
+                    </div>
+                    <!-- <div class="col">
+                        <h2>And more stuff</h2>
+                        <p class="blurb">and things</p>
+                    </div>
+                    <div class="col">
+                        <h2>and more things</h2>
+                        <p class="blurb">and things</p>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="row butnContainer">
+                <div class="grid contentContainer">
+                    <button class="butn">LOGIN</button>
+                    <button class="butn">CREATE AN ACCOUNT</button>
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

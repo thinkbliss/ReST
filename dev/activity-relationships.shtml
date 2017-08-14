@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper profiler">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div id="relationships" class="row introHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                            <div class="cirlceContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-relationships.png" alt="Relationships Activity" />
+                                </div>
+                            </div>
+                        </div>
+                        <h1>
+                            <span>RELATIONSHIPS</span>
+                            <!-- <img src="build/assets/images/icon-meaning-main.png" alt="Meaning Activity" /> -->
+                        </h1>
+                        <p class="blurb">Acts of Kindness</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row introContent">
+                <div class="grid contentContainer blurbCarousel">
+                    <div class="col colFull">
+                        <h2></h2>
+                        <p class="blurb">"A day can be brightened many different days. Making other people happy makes me happy." "—2015 Participant </p>
+                    </div>
+                    <div class="col colFull">
+                        <h2></h2>
+                        <p class="blurb">This strategy involves engaging in small acts of kindness or generosity. By lifting other people’s spirits, we lift our own as well.</p>
+                    </div>
+                    <div class="col colFull">
+                        <h2>Use when:</h2>
+                        <p class="blurb">you want to boost other people’s happiness and your own, and you think “this could be fun!” </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row butnContainer">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <a class="butn" href="/activity-relationships-start.shtml">LET'S GO!</a>
+                        <a class="butn" data-popup-open="learn-more">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup" data-popup="learn-more">
+                <div class="popup-inner tips">
+                    <div id="scienceRelationships" class="subjectContainer">
+                        <div class="icon">
+                            <div class="circleWrapper">
+                                <div class="circleContainer">
+                                    <div class="circleContent">
+                                        <img src="build/assets/images/icon-relationships-black.png" alt="Relationships Activity" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2>Acts of Kindness</h2>
+                        <p>Acts of genuine kindness or altruism raise our own levels of hope, joy and happiness, and are a strong buffer against stress and depression.<sup>3</sup> Altruism works by:</p><br/>
+                        <ul>
+                            <li>Raising oxytocin levels. Oxytocin has been referred to as the “love” or “bonding” hormone, and it fosters connection, boosts positive emotion, and relieves stress.<sup>4</sup> </li>
+                            <li>Getting you out of your head (not a fun place to be if you’re feeling stressed or depressed) and focused on others.<sup>4</sup></li>
+                            <li>Strengthening social bonds. Kindness generates appreciation, goodwill and reciprocity, which brings people closer together.<sup>2,4</sup></li>
+                            <li>Changing how you see yourself. By acting with generosity, you begin to see yourself as a kind, generous and helpful person.<sup>2</sup></li>
+                        </ul><br/>
+                        <p>For this strategy to be effective it is essential that the kindness is authentic, not offered out of a sense of obligation.</p><br/>
+
+                        <ol class="footnotes">
+                            <li>Crocker, J., Olivier, M., & Nuer, N. (2009). Self-image Goals and Compassionate Goals: Costs and Benefits. Self and Identity, 8(2-3), 251-269. doi:10.1080/15298860802505160</li>
+                            <li>Yeager, D. S., Henderson, M. D., Paunesku, D., Walton, G. M., D'mello, S., Spitzer, B. J., & Duckworth, A. L. (2014). Boring but important: A self-transcendent purpose for learning fosters academic self-regulation. Journal of Personality and Social Psychology, 107(4), 559-580. </li>
+                            <li>McGonigal, K. (2015). The upside of stress: Why stress is good for you, and how to get good at it. New York: Penguin Random House.</li>
+                            <li>Ben-Shahar, T. (2007). Happier: Learn the secrets to daily joy and lasting fulfillment. New York: McGraw-Hill.</li>
+                        </ol>
+                    </div>
+                    <a class="popup-close" data-popup-close="learn-more" href="#">x</a>
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

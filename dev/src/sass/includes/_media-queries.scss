@@ -1,0 +1,297 @@
+@media only screen and (min-width: 768px) {
+    .contentContainer {
+        max-width: 450px;
+    }
+    // .mobileNav {
+    //     display: none !important;
+    // }
+    // .hamburgerNav {
+    //     display: none;
+    // }
+    .mobileNavWrapper {
+        display: none;
+    }
+    img.science {
+        width: 11% !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    // .desktopNav {
+    //     display: none !important;
+    // }
+    // .mobileNav {
+    //     //display: block !important;
+    // }
+
+    .mobileHamburger {
+    	transition: 0.1s transform linear;
+    	position: relative;
+    	background: 0;
+    	float: left;
+    	margin: 0 1rem;
+    	height: 2rem;
+    	width: 2rem;
+    	outline: 0;
+    	padding: 0;
+    	border: 0;
+        z-index: 102;
+        top: 36px;
+        left: 13px;
+    }
+
+    .bar {
+    	&, &::before, &::after {
+    		transition: 0.2s background linear 0.1s, 0.2s top linear 0.2s, 0.2s transform linear;
+    		position: absolute;
+    		background: #989894;
+    		margin: auto;
+    		width: 100%;
+    		height: 0.1rem;
+    		content: '';
+    		top: 20%;
+    		left: 0;
+    	}
+
+    	& {
+    		margin-top: -0.2rem
+    	}
+
+    	&::before {
+    		top: -.7rem;
+    	}
+
+    	&::after {
+    		top: .7rem;
+    	}
+
+    	&::before,
+    	&::after {
+    		transform: rotate(0deg);
+    	}
+
+    	.active & {
+    		background: 0;
+
+    		&::before {
+    			transform: rotate(45deg);
+    		}
+
+    		&::after {
+    			transform: rotate(-45deg);
+    		}
+
+    		&::before,
+    		&::after {
+    			top: 0;
+    		}
+
+    		&,
+    		&::before,
+    		&::after {
+    			transition: 0.2s background linear 0.1s, 0.2s top linear, 0.2s transform linear 0.2s;
+    		}
+    	}
+    }
+
+    .mobileNav {
+    	width: 250px;
+    	height: 100%;
+    	background: $darkGrey;
+    	position: fixed;
+        top: 0;
+    	transform: translateX(-250px);
+    	transition: transform 0.6s cubic-bezier(.56,.1,.34,.91);
+    	padding-top: 2.2rem;
+        z-index: 101;
+    	.menuOpen & {
+    		transform: translateX(0);
+    	}
+
+    	ul {
+            width: 85%;
+    		margin: 65px 0 0 20px;
+            padding-left: 45px;
+    		list-style: none;
+    		//padding: 0;
+            text-align: left;
+    		li {
+    			padding: 15px 5px;
+    			font-size: 1em;
+    			&:hover {
+    				//background: blue;
+    			}
+                a{
+                    color: $lightGrey;
+                }
+    		}
+    	}
+    }
+
+    .mobileFooterContent {
+        margin-top: 32px !important;
+        padding-top: 30px !important;
+        border-top: 1px solid $lightGrey;
+    }
+    .contentContainer {
+        width: 350px;
+        h1 {
+            font-size: 2.5em;
+        }
+    }
+
+    .headerWrapper, .footerWrapper {
+        display: none;
+        //background: transparent !important;
+        //position: absolute;
+        // ul {
+        //     //display: block !important;
+        //     width: 90% !important;
+        //     padding: 20px 0;
+        //     // position: absolute;
+        //     // top: 0;
+        //     z-index: 999;
+        //     //background: none;
+        //     left: 14px;
+        //     //display: block !important;
+        //     display: block !important;
+        //     text-align: center;
+        //     .dropdown {
+        //         display: none !important;
+        //     }
+        //     li {
+        //         padding: 5px 10px 0 !important;
+        //         display: inline-block;
+        //     }
+        // }
+    }
+
+    .activitiesContainer {
+        .circleContent {
+            padding-top: 125% !important;
+            p {
+                font-size: .825em !important;
+            }
+            img {
+                width: 40% !important;
+            }
+        }
+        .circleWrapper {
+            font-size: .875em;
+        }
+    }
+    .todo:after {
+        width: 144px !important;
+    }
+    .butn {
+        width: 100% !important;
+    }
+	// .hamburgerNav {
+    //     width: 1em;
+    //     height: 1.7em;
+    //     margin-left: 4px;
+    //     display: block;
+    //     text-align: center;
+    //     float: right;
+    //     cursor: pointer;
+	// 	//color: $brand-yellow;
+	// }
+	// .navContainer {
+	// 	width: 100%;
+	// 	position: absolute;
+	// 	top: 110px;
+	// 	z-index: 1;
+	// 	//background: $bg-grey;
+	// 	left: 14px;
+	// 	&.desktopNav {
+	// 		display: none;
+	// 	}
+	// 	li {
+	// 		padding: 0 !important;
+	// 		display: block !important;
+	// 		text-transform: uppercase;
+	// 		font-weight: 900;
+	// 		a {
+	// 			padding: 20px;
+	// 			display: block;
+	// 			//color: $black !important;
+	// 			//border-bottom: 1px solid $accent-grey;
+	// 			&:hover {
+	// 				//background: none !important;
+	// 				//color: $black !important;
+	// 			}
+	// 			&:after {
+	// 				content: "  >";
+	// 				position: absolute;
+	// 				right: 30px;
+	// 				font-weight: 400;
+	// 				//transform: rotate(-90deg) !important;
+	// 			}
+	// 		}
+	// 		&.active {
+	// 			a {
+	// 				//background: $accent-grey !important;
+	// 			}
+	// 			ul {
+	// 				li {
+	// 					a {
+	// 						padding: 10px 0 !important;
+	// 						background: none !important;
+	// 						border: none;
+	// 					}
+	// 				}
+	// 			}
+	// 		}
+    //     }
+    // }
+    .profileBar .icons.iconHealth {
+        background-position: center -25px !important;
+    }
+    .profileBar .iconGrid .icons.iconMeaning {
+        background-position: center -172px !important;
+    }
+    .profileBar .icons.iconEmotions {
+        background-position: center -109px !important;
+    }
+    .profileBar .icons.iconWorkEd {
+        background-position: center -143px !important;
+    }
+    .profileBar .icons.iconEnvironment {
+        background-position: center -69px !important;
+    }
+    .wideContent h1 img {
+        width: 20% !important;
+    }
+    .activityContent.finishTip .finish {
+        top: 45% !important;
+    }
+    .activityContent.finishTip .wellDone .circleContent p {
+        left: 35% !important;
+    }
+    .activityContent.finishTip .wellDone {
+        margin-top: 0 !important;
+    }
+
+    #add-todo {
+        width: 48% !important;
+        padding-top: 22% !important;
+    }
+    .subjectContainer .icon {
+        width: 20% !important;
+        img {
+            top: 68% !important;
+        }
+    }
+    .tipWrapper .blockContainer {
+        height: 148px !important;
+        font-size: 1.1em !important;
+    }
+    .motivator {
+        height: 500px !important;
+        bottom: -40px !important;
+        .butnContainer {
+            .contentContainer {
+                width: 340px !important;
+            }
+        }
+    }
+}

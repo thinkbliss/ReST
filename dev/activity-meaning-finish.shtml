@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div id="confetti"></div>
+
+        <div class="containerWrapper activityMeaning finishTip">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div class="row activitiesHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                            <div class="cirlceContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-meaning-color.png" alt="Meaning Activity" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activityContent finishTip">
+                <div class="wellDone">
+                    <div class="row">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <div class="circleContainer">
+                                    <div class="circleContent">
+                                        <p>WELL DONE</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row butnContainer">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <a class="butn" href="/">BACK TO PROFILE</a>
+                                <a class="butn" href="/science.shtml">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="finish">
+                    <div class="row">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <a class="close">x</a>
+                                <h2>Tip!</h2>
+                                <h3 class="blurb">Get Out of Your Head and into Someone Else’s shoes</h3>
+                                <p>To make a connection during a social or professional interaction, rather than trying to impress, focus on what the other person might be thinking or feeling. This will reduce self-consciousness, and allow you to dedicate your full attention to reading and responding to the situation. <br/><br/><span class="listIntro">Bottom Line:</span> To connect with others, focus on them not you.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row butnContainer">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <a class="butn" href="/tips-and-tricks.shtml">SEE MORE TIPS &AMP; TRICKS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row progressBar">
+                    <div class="grid">
+                        <ul class="steps">
+                            <li>START</li>
+                            <li>STEP 1</li>
+                            <li>STEP 2</li>
+                            <li class="active">FINISH
+                                <div class="progressActive"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

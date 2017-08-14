@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper myMotivation">
+
+                <!--#include virtual="includes/_include-header.shtml" -->
+
+            <div id="motivation" class="row activitiesHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                            <div class="cirlceContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-my-motivation-color.png" alt="My Motivation" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activityContent">
+                <div class="start">
+                    <div class="row">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <h2>My Motivation</h2>
+                                <p>Create a 1-2 sentence personal motivation statement that reminds you of your deepest why. Why do you want to complete ReST? What do you hope to get out of it, and what difference would this make in your life?</p>
+                                <form class="keepFormData" id="myMotivationStatement">
+                                    <textarea class="textEntry" name="textEntry"></textarea>
+                                </form>
+                                <p>Put your motivation statement somewhere that you’ll see it often, and refer to it when your motivation is flagging.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row butnContainer">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <a class="butn motivationCreation">CREATE MY MOTIVATION</a>
+                                <a class="butn motivationUpdate">EDIT MY MOTIVATION</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="motivator">
+                        <!-- <a class="close" href="#">x</a> -->
+                        <h2>My Motivation</h2>
+                        <p class="yourMotivation"></p>
+                        <div class="row butnContainer">
+                            <div class="grid contentContainer">
+                                <div class="col colFull">
+                                    <a class="butn close">UPDATE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!--#include virtual="includes/_include-footer.shtml" -->
+
+        </div>
+    </body>
+</html>

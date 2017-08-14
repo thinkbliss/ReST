@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper activityEmotions">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div class="row activitiesHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                            <div class="cirlceContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-emotions-color.png" alt="Emotions Activity" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activityContent">
+                <div class="start">
+                    <div class="row">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <h2>Create your NAAN plan</h2>
+                                <p>It’s easy to forget these steps when we need them most, so please take a moment to create an “Oh #$%^&*!!!! Plan” to remind yourself to Notice, Accept, and Narrate (NAAN) negative thoughts or feelings. It may be helpful to carry a pebble in your pocket, wear a bracelet or rubber band around your wrist, or choose a new screensaver image as a reminder, or develop a plan that will work for you. </p>
+                                <form id="todo-list">
+                                    <!-- <span class="todo-wrap">
+                                        <input type="checkbox" id="1"/>
+                                        <label for="1" class="todo">
+                                            <i class="fa fa-check"></i>
+                                            Have a good idea
+                                        </label>
+                                        <span class="delete-item" title="remove">
+                                            <i class="fa fa-times-circle"></i>
+                                        </span>
+                                    </span>
+                                    <span class="todo-wrap">
+                                        <input type="checkbox" id="2"/>
+                                        <label for="2" class="todo">
+                                            <i class="fa fa-check"></i>
+                                            Plan idea execution
+                                        </label>
+                                        <span class="delete-item" title="remove">
+                                            <i class="fa fa-times-circle"></i>
+                                        </span>
+                                    </span>
+                                    <span class="todo-wrap">
+                                        <input type="checkbox" id="3"/>
+                                        <label for="3" class="todo">
+                                            <i class="fa fa-check"></i>
+                                            Execute idea
+                                        </label>
+                                        <span class="delete-item" title="remove">
+                                            <i class="fa fa-times-circle"></i>
+                                        </span>
+                                    </span>
+                                    <span class="todo-wrap">
+                                        <input type="checkbox" id="4"/>
+                                        <label for="4" class="todo">
+                                            <i class="fa fa-check"></i>
+                                            Celebrate with a cold one
+                                        </label>
+                                        <span class="delete-item" title="remove">
+                                            <i class="fa fa-times-circle"></i>
+                                        </span>
+                                    </span> -->
+                                    <div id="add-todo">
+                                        <i class="fa fa-plus"></i>
+                                        Add item
+                                        <a href="activity-emotions-finish.shtml"></a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row butnContainer">
+                        <div class="grid contentContainer">
+                            <!-- <div class="col colFull">
+                                <a id="add-todo" class="butn">NEXT</a>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="row progressBar">
+                        <div class="grid">
+                            <ul class="steps">
+                                <li>START</li>
+                                <li>STEP 1</li>
+                                <li class="active">STEP 2</li>
+                                <li>FINISH</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

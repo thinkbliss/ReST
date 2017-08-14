@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div id="confetti"></div>
+
+        <div class="containerWrapper activityHealth finishTip">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div class="row activitiesHeader">
+                <div class="grid contentContainer">
+                    <div class="col colFull">
+                        <div class="icon">
+                            <div class="cirlceContainer">
+                                <div class="circleContent">
+                                    <img src="build/assets/images/icon-health-color.png" alt="Health Activity" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activityContent finishTip">
+                <div class="wellDone">
+                    <div class="row">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <div class="circleContainer">
+                                    <div class="circleContent">
+                                        <p>WELL DONE</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row butnContainer">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <a class="butn" href="/">BACK TO PROFILE</a>
+                                <a class="butn" href="/science.shtml">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="finish">
+                    <div class="row">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <a class="close">x</a>
+                                <h2>Tip!</h2>
+                                <h3 class="blurb">Get the Right Light</h3>
+                                <p>To remedy sleep woes, try to get some morning exposure to natural daylight, or strong light with blue tones. In the evening, shift to softer light with red and orange tones, and limit exposure to bright lights, including electronic screens, as you approach sleep.<sup>3</sup>  <br/><br/><span class="listIntro">Bottom Line:</span> To brighten your mood, brighten your morning (and de-light your night).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row butnContainer">
+                        <div class="grid contentContainer">
+                            <div class="col colFull">
+                                <a class="butn" href="/tips-and-tricks.shtml">SEE MORE TIPS &AMP; TRICKS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row progressBar">
+                    <div class="grid">
+                        <ul class="steps">
+                            <li>START</li>
+                            <li>STEP 1</li>
+                            <li>STEP 2</li>
+                            <li class="active">FINISH
+                                <div class="progressActive"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--#include virtual="includes/_include-footer.shtml" -->
+        </div>
+    </body>
+</html>

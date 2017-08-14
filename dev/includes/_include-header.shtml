@@ -1,0 +1,40 @@
+            <div class="mobileNavWrapper">
+                <button class="mobileHamburger" type="button">
+                	<span class="bar"></span>
+                </button>
+
+                <div class="mobileNav">
+                	<ul>
+                        <li><a href="/">PROFILE</a></li>
+                        <li><a href="/activities.shtml">ACTIVITES</a></li>
+                        <li><a href="/my-motivation.shtml">MY MOTIVATION</a></li>
+                        <li><a href="/tips-and-tricks.shtml">TIPS & TRICKS</a></li>
+                        <li><a href="/science.shtml">THE SCIENCE</a></li>
+                	</ul>
+                    <ul class="mobileFooterContent">
+                        <li><a href="/about.shtml">About</a></li>
+                        <li><a href="/privacy-policy.shtml">Privacy Policy</a></li>
+                        <!-- <li><a href="/my-motivation.shtml">Log out</a></li> -->
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row headerWrapper">
+                <ul>
+                    <li><a href="/">PROFILE</a></li>
+                    <li><a href="/activities.shtml">ACTIVITES</a>
+                        <!-- <ul class="dropdown">
+                            <li><a href="activity-emotions.shtml">EMOTIONS</a></li>
+                            <li><a href="activity-environment.shtml">ENVIRONMENT</a></li>
+                            <li><a href="activity-health.shtml">HEALTH</a></li>
+                            <li><a href="activity-meaning.shtml">MEANING</a></li>
+                            <li><a href="activity-relationships.shtml">RELATIONSHIPS</a></li>
+                            <li><a href="activity-work-ed.shtml">WORK/EDUCATION</a></li>
+                        </ul> -->
+                    </li>
+                    <li><a href="/my-motivation.shtml">MY MOTIVATION</a></li>
+                    <li><a href="/tips-and-tricks.shtml">TIPS & TRICKS</a></li>
+                    <li><a href="/science.shtml">THE SCIENCE</a></li>
+                    <!-- <li class="goRight"><a href="javascript:void(0);">LOG OUT</a></li> -->
+                </ul>
+            </div>

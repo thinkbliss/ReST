@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <!--#include virtual="includes/_include-head.shtml" -->
+    <body>
+        <div class="containerWrapper">
+            <!--#include virtual="includes/_include-header.shtml" -->
+            <div id="a-entrance" class="contentWrapper">
+                <div class="introContainer">
+                    <div class="intoContent">
+                    <div class="icon"></div>
+                        <h1>meaning</h1>
+                        <h2>Think Big: Bigger-than-self-goal</h2>
+                    </div>
+                </div>
+                <div class="carouselContainer">
+                    <div class="sliderContent">
+                        <p class="infoBlurb">"I often find myself in a rut dwelling on my issues, which only makes me feel worse about my problems.  This exercise helped me look past my daily conflicts to a brighter future, which is exactly what I needed!"</p>
+                    </div>
+                </div>
+                <div class="butnContainer">
+                    <button class="butn">
+                        <span>LET'S GO!</span>
+                    </button>
+                </div>
+            </div>
+            <div class="footerWrapper"></div>
+        </div>
+    </body>
+</html>
